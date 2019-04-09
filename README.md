@@ -1,5 +1,7 @@
 # Green - A native Blockstream wallet for iOS
 
+## It's literally Blockstream Green but with satoshis support for Bitcoin denominations
+
 <a href="https://itunes.apple.com/app/id1402243590" target="_blank">
 <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png" alt="Get it on Apple Store" height="90"/></a>
 
