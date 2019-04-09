@@ -1,4 +1,4 @@
-# Green - A native Blockstream wallet for iOS
+# Greener - A native Blockstream wallet for iOS
 
 ## It's literally Blockstream Green but with satoshis support for Bitcoin denominations
 
