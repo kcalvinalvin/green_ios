@@ -75,6 +75,7 @@ public enum DenominationType: String, CodingKey {
     case MilliBTC = "mbtc"
     case MicroBTC = "ubtc"
     case Bits = "bits"
+    case Satoshis = "sats"
 
     func toString() -> String {
         switch self {
@@ -84,6 +85,8 @@ public enum DenominationType: String, CodingKey {
             return "mBTC"
         case .MicroBTC:
             return "µBTC"
+        case .Satoshis:
+            return "sats"
         case .Bits:
             return "bits"
         }
@@ -97,6 +100,8 @@ public enum DenominationType: String, CodingKey {
             return .MilliBTC
         case "µbtc", "ubtc":
             return .MicroBTC
+        case "sats":
+            return .Satoshis
         default:
             return .Bits
         }
